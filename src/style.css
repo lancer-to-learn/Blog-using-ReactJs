@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  a.link {
+    color: blue;
+    font-style: oblique;
+  }
+
+  a.add {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color:#0d6efd;
+  }
+
+  a.edit {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+  }
+
+  a.delete {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+
+  button.add{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color:#0d6efd;
+  }
+
+  button.edit {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+  }
+
+  button.delete {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+
+  .btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  div.post {
+    border: 1px solid green;
+    padding: 10px;
+  }
+  .blog {
+    padding-top: 40px;
+  }
